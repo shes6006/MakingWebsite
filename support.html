@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="mycss.css">
+    <link rel="stylesheet" type="text/js" href="myjavascript.js">
+    <script src="jquery-3.4.1.js"></script>
+
+</head>
+
+<body>
+    <script src="myjavascript.js"></script>
+    <!-- bar -->
+    <div class="myHeader">
+        <nav>
+            <a href="index.html">Afidus</a>
+            <a href="products.html">Products</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="support.html">Support</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </div>
+    <div>
+        <img id="headerLogo" src="afidus/LogoTransparent.png" alt="">
+        <div id="burgerDiv">
+            <button id="burger" for='burger'>☰</button>
+        </div>
+    </div>   
+    <div class="thisHeader">
+        <div class="hideContainer">
+            <nav>
+                <a href="index.html">Afidus</a>
+                <a href="products.html">Products</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="support.html">Support</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+    <!-- 視覺介紹頁面 -->
+    <img class="cover" src="afidus/productCover.jpeg" alt="">
+    <!-- 主頁內容 -->
+    <div class="supportWrapper">
+        <div>
+            <h3>The Handy App</h3>
+            <div class="supportApp">
+                <img class="appDes" src="afidus/app/1.jpg" alt="">
+                <img class="appDes" src="afidus/app/2.jpg" alt="">
+                <img class="appDes" src="afidus/app/3.jpg" alt="">
+                <img class="appDes" src="afidus/app/4.jpg" alt="">
+            </div>
+        </div>
+        <h3>Time Lapse Calculator</h3>
+        <section class="calculator">
+            <label for="duration">Recording Duration </label>
+            <input type="text" id="duration" name="duration" placeholder="hr">
+            <br>
+            <label for="interval">Capture Interval </label>
+            <select name="interval" id="interval">
+                    <option value="1">ASAP(1 secs)</option>
+                    <option value="3">3 secs</option>
+                    <option value="5">5 secs</option>
+                    <option value="10">10 secs</option>
+                    <option value="60">1 min</option>
+                    <option value="300">5 mins</option>
+                    <option value="600">10 mins</option>
+                    <option value="1800">30 mins</option>
+                    <option value="3600">1 hr</option>
+                    <option value="86400">24 hr</option>
+                </select>
+            <br>
+            <label for="playback">Playback Rate</label>
+            <select name="playback" id="playback">
+                    <option value="1">1 FPS</option>
+                    <option value="3">3 FPS</option>
+                    <option value="5">5 FPS</option>
+                    <option value="10">10 FPS</option>
+                    <option value="15">15 FPS</option>
+                    <option value="20">20 FPS</option>
+                    <option value="30">30 FPS</option>
+                </select>
+            </label><br>
+            <button id="count">Count</button> <br>
+            <p id="demo">Clip Length:</p>
+            <p id="result"> min sec</p>
+            <p id="warning">
+                Note: Under the stabilized lighting environment with "camera image quality" set at best. The estimated battery life is tested under temperature conditions of 77 °F (25 °C) with new AA Alkaline batteries (battery brand: TOSHIBA LR6GCNN) Battery life may
+                vary based on brand, environmental conditions, operating temperature, and other factors. Battery life of TLC2000 and BCC2000 was tested by using TLC2000 units and firmware version FW90.
+            </p>
+        </section>
+
+        <script>
+        </script>
+    </div>
+</body>
+<div id="myLine"></div>
+<footer>
+    <div class="footer1">
+        <div>
+            <img src="afidus/LogoTransparent.png" alt=""><br>
+            <a href="index.html">about us</a> <br>
+            <a href="contact.html">contact us</a><br>
+            <a href="https://www.brinno.com/privacy-policy">privacy policy</a><br>
+            <p class="myRights">
+        </div>
+        <div class="subscribe">
+            <form action="">
+                <p>Update Our News Easily</p>
+                <input type="text" placeholder="First Name"><br>
+                <input type="text" placeholder="Last Name"><br>
+                <input id="subscribeMail" type="text" placeholder="E-mail">
+                <br>
+                <button type="button" id="subscribeBtn">subscribe</button>
+            </form>
+            <br>
+        </div>
+
+        <div class="reconnect">
+            <p>
+                7F-4, No. 186, Jian 1st Rd., Zhonghe Dist., <br> New Taipei City 235, Taiwan(R.O.C) <br> TEL : +886-2-82269857 FAX: +886-2-82269800 <br> Afidus © 2012 All Rights Reserved.
+            </p>
+
+        </div>
+    </div>
+</footer>
+
+</html>
